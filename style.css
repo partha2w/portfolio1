@@ -1,0 +1,152 @@
+body{
+}
+/************************NAVBAR**************************/
+#navbar{
+    background-color: #b9d7ea;
+    padding: 1% 10%;
+    color: #393e46;
+}
+.container-fluid{
+    background-color: #b9d7ea;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+/* *************title**************** */
+#title{
+    background-color: #d6e6f2;
+    padding: 8% 10% 5%;
+    color: #393e46;
+}
+.primary-heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.secondary-heading h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.heading-para{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 1.4rem;
+}
+.highlight{
+    color: #ffb200;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.laptop{
+    height: 70%;
+}
+
+@media (max-width:1053px) {
+    #title{
+        text-align: center;
+    }
+    .primary-heading{
+        font-size: 3rem;
+    }
+    .secondary-heading h2{
+        font-size: 2rem; ;
+    }
+    .heading-para{
+        text-align: center;
+    }
+    .laptop{
+        height: 50%;
+    }
+    
+    #about{
+        text-align: center;
+    }
+    #skills{
+        text-align: center;
+    }
+    .col-margin{
+        margin-bottom: -30%;
+    }
+    .profile-pic{
+        margin-bottom: -18%;
+    }
+    .front-margin{
+        margin-bottom: -40%;
+    }
+   }
+
+
+/* *****************************About***************************** */
+
+#about{
+    padding: 3% 10%;
+    background-color: #eeeeee;
+}
+.profile-pic img{
+    height: 70%;
+    border-radius: 100%;
+}
+.tertiary-heading{
+    font-family: 'Ubuntu', sans-serif;
+}
+.paragraph{
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 1.5;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* **************************************Skills******************** */
+
+#skills{
+    padding: 2% 10% 2%;
+    background-color: #eeeeee;
+
+}
+.row-edit{
+   margin-bottom: -20%;
+}
+.ux{
+    height:40%;
+}
+.video-edit{
+    height: 40%;
+}
+
+/* ***************************contact****************************** */
+#contact{
+    text-align: center;
+    background-color: #d6e6f2;
+    padding: 2% 0;
+}
+#contact h2{
+    padding: 1%;
+}
+
+/* **************************FOOTER*************************** */
+
+#footer{
+    text-align: center;
+    background-color:#d6e6f2;
+    padding: 2% 0;
+}
+.ffs{
+    padding: 1%;
+    color:#393e46;
+}
+.ffs:hover{
+    color: #ffb200;
+}
+
+
+
+
+
+
+
+
